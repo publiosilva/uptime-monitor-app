@@ -7,6 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "uptimemonitorapp",
     "userInterfaceStyle": "automatic",
+    "backgroundColor": "#070c18",
     "ios": {
       "supportsTablet": true
     },
@@ -22,7 +23,8 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "backgroundColor": "#070c18"
     },
     "plugins": [
       "expo-router",
@@ -31,9 +33,10 @@
         {
           "image": "./assets/images/splash-icon.png",
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#070c18"
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
